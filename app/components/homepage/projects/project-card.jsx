@@ -56,6 +56,11 @@ function ProjectCard({ project }) {
             <span className="text-orange-400">{project.role}</span>
             <span className="text-gray-400">,</span>
           </div>
+          {project.demo && <div>
+            <span className="ml-4 lg:ml-8 mr-2 text-white">Demo:</span>
+            <span className="text-orange-400"><a href={project.demo} target='_blank'>{project.demo}</a></span>
+            <span className="text-gray-400">,</span>
+          </div>}
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">Description:</span>
             <span className="text-cyan-400">{' ' + project.description}</span>

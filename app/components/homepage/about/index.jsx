@@ -93,11 +93,7 @@ function AboutSection() {
               width={280}
               height={280}
               alt="Zahid Latif"
-              className="rounded-lg transition-all duration-500 grayscale hover:grayscale-0 relative z-[100 ]"
-            />
-            <canvas
-              ref={canvasRef}
-              className="absolute top-0 left-0 w-full h-full pointer-events-none z-20"
+              className="rounded-lg transition-all duration-500 grayscale hover:grayscale-0 relative z-10"
             />
             <div className="absolute bottom-4 left-4 right-4 bg-[#1a1443] bg-opacity-75 p-4 rounded-lg z-30">
               <h3 className="text-white text-lg font-semibold">{personalData.name}</h3>
